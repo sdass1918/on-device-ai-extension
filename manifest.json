@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Adept: On-Device AI Helper",
+  "version": "0.1.0",
+  "description": "Privately summarizes, simplifies, and translates highlighted text.",
+  "permissions": [
+    "contextMenus",  
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

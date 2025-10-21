@@ -1,0 +1,97 @@
+# Chrome Extension .gitignore
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# Node.js (if you add build tools later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build Output
+dist/
+build/
+*.zip
+*.crx
+*.pem
+
+# Chrome Extension Development
+# Private key for extension signing (if generated)
+key.pem
+private.pem
+
+# Extension packages
+*.crx
+*.zip
+
+# Logs
+logs/
+*.log
+
+# Environment Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Archive Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tgz
+*.war
+*.xpi
+
+# Development Tools
+.eslintcache
+.stylelintcache
+
+# Coverage Reports
+coverage/
+*.lcov
+
+# Documentation Build
+docs/build/
+
+# Chrome Web Store Assets (if you create promotional images)
+promo/
+screenshots/
+store-assets/
+
+# Version Control
+.git/
+.svn/
+.hg/
+.bzr/
