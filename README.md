@@ -148,6 +148,21 @@ To enable Chrome's built-in AI:
 - **Minimal Permissions**: Only requests necessary permissions for core functionality
 - **Open Source**: Full source code available for review
 
+## Contributing
+
+Feel free to submit issues, feature requests, or pull requests to improve the extension.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**What this means:**
+
+- ✅ Free to use, modify, and distribute
+- ✅ Can be used in commercial projects
+- ✅ No warranty or liability
+- ℹ️ Must include original copyright notice
+
 ---
 
 **Note**: This extension relies on experimental Chrome AI APIs that are still in development. Features and availability may change as these APIs evolve.
